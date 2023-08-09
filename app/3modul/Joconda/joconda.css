@@ -1,0 +1,157 @@
+.artholder{
+    grid-area: wrapper;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 150px;
+    background: var(--background-color, #ABFCC2);
+    position: relative;
+    height: 100vh;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.textholder {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 10px; 
+    border-radius: 20px;
+
+}
+.textholder__artquestion {
+    background:var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.textholder__artdetails {
+    background:var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.textholder__artsummary {
+    background:var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.artsummary__text {
+    text-decoration: underline;
+}
+
+.art__button {
+    width: 200px;
+    height: 50px;
+    background: var(--button-color, #4AEC47);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+} 
+.art__button:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.textholder__header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--text-color, #171710);
+    background:var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+
+}
+.textholder__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text-color, #171710);
+    background:var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+}
+.textholder__artquestion {
+    background:var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+}
+.textholder__artform {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+.artform__label {
+    display: flex;
+    gap: 20px;
+}
+.artform__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--text-color, #171710);
+}
+.textholder__answer {
+    background: var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+    /* visibility: hidden; */
+}
+.finish {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--task-color, #F6F897);
+    padding: 10px; 
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    color: var(--text-color, #171710);
+}
+.joconda__image {
+     display: flex;
+  
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 3px;
+}

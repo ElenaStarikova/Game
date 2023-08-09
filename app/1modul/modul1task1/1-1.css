@@ -1,0 +1,77 @@
+.task1__wrapper{
+    grid-area: wrapper;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color, #ABFCC2);
+    gap: 300px; 
+    position: relative;
+    height: 100vh;
+}
+.task1__note1 {
+    align-self: center;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background: var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 10%;
+}
+.explanationHolder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+   
+    padding: 5px;
+    position: relative;
+
+}
+.task1__text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -90%); 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+   
+}
+.task1__wordsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 40px 80px 40px 80px;
+    background: var(--task-color, #F6F897);
+    border-radius: 20px;
+}
+.task1__wordHolder {
+    display: flex;
+    gap: 23px;
+}
+.task1_label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.task1__tryagain {
+    height: 80px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    border-radius: 10%;
+    border: solid 3px red;
+    background: white;
+    position: relative;
+    padding-top: 30px;
+
+}

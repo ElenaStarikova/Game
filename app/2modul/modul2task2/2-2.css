@@ -1,0 +1,130 @@
+.map__wrapper {
+    grid-area: wrapper;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background: var(--background-color, #ABFCC2);
+    padding-top: 20px;
+    position: relative;
+    height: 100vh;
+    
+}
+.map__explanation {
+    background: var(--task-color, #F6F897);
+    width: 600px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.map__taskwrapper {
+    display: flex;
+    gap: 300px;
+   
+}
+.map__explanationholder {
+    background:var(--task-color, #F6F897);
+    position: relative;
+    
+}
+.map__imgexplanation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.map__taskholder {
+    display: grid;
+    grid-template-rows: repeat(1fr, 2);
+    grid-template-columns: repeat(1fr, 2);
+    gap: 20px;
+    grid-template-areas: 
+        'pict1 . pict2'
+        /* '. ques .' */
+        'pict3 . pict4';
+    background:var(--task-color, #F6F897);
+    padding: 10px;
+    position: relative;
+}
+.map__pict1 {
+    grid-area: pict1;
+}
+.map__pict2 {
+    grid-area: pict2;
+}
+.map__pict3 {
+    grid-area: pict3;
+}
+.map__pict4 {
+    grid-area: pict4;
+}
+
+.map__quest {
+    /* grid-area: ques; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+.map__pictureswrapper {
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+}
+.map__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24 px;
+    line-height: 24px;
+}
+.map__textcorrect {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: green;
+}
+.map__textwrong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: red;
+}
+.map__button {
+    background: var(--button-color, #4AEC47);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.pict__wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.map__button:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}

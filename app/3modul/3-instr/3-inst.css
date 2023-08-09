@@ -1,0 +1,89 @@
+.instructionHolder3 {
+    grid-area: wrapper;
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--task-color, #F6F897);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.instructionHolder__imgInst3 {
+    display: flex;
+    gap: 100px;
+}
+/* .leftPanel__imageHolder {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.leftPanel__textInst {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+} */
+.leftPanel__textH1-3 {
+    /* position: absolute;
+    top: 250px;
+    left: 50px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 28px;
+    color: var(--text-color, #171710);
+    text-align: center;
+}
+.leftPanel__text3 {
+    /* position: absolute;
+    top: 300px;
+    left: 50px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: var(--text-color, #171710);
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* .instructionHolder__righnPanel {
+    background: gray;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    height: 100vh;
+    width: 1200px;
+} */
+
+
+.button__ready3 {
+    /* position: absolute;
+    bottom: 100px;
+    left: 100px; */
+
+    width: 250px;
+    height: 50px;
+    background: var(--button-color, #4AEC47);
+    
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+}
+.button__ready3:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}

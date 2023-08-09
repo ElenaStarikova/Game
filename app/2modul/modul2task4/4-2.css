@@ -1,0 +1,124 @@
+.task4-2__wrapper {
+    grid-area: wrapper;
+    padding-top: 20px;
+    /* padding-left: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
+    background: var(--background-color, #ABFCC2);
+    position: relative;
+    height: 100vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+}
+
+.task4-2__taskcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: var(--task-color, #F6F897);
+    gap: 10px;
+}
+.image__wrapper {
+    display: flex;
+    justify-content: center;
+    
+    /* padding: 10px; */
+    
+}
+.task4-2__taskholder {
+    width: 600px;
+    /* height: 150px; */
+    background: var(--task-color, #F6F897);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.task4-2__text {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+}
+.task4-2__form {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-left: 30px;
+}
+.task4-2__input {
+    width: 40px;
+    border: solid 2px black;
+}
+.task4-2__answersholder {
+    display: flex;
+    gap: 30px;
+    background: var(--task-color, #F6F897);
+}
+.task4-2__answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task4-2__correctanswers {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    width: 100px;
+    height: 200px;
+    background: var(--task-color, #F6F897);
+    visibility: hidden;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+} 
+.task4-2__backtext {
+    /* position: absolute;
+    bottom: 50px;
+    left: 400px; */
+    width: 900px;
+    height: 50px;
+    background: var(--task-color, #F6F897);
+    visibility: hidden;
+    text-align: center;
+    padding: 20px;
+    
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+}
+.task4-2__answerline {
+    display: flex;
+    gap: 130px;
+    align-items: flex-start;
+    padding-left: 60px;
+    visibility: hidden;
+}
+.answeline__answer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+}

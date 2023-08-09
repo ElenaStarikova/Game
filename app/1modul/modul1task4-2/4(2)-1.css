@@ -1,0 +1,199 @@
+.task4__wrapper2 {
+    padding-top: 40px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    height: 100vh;
+}
+
+/* голубые кнопки */
+.keyboard__inner_big2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    color: var(--text-color, #171710);
+}
+.keyboard__inner2{
+    width: 540px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    place-items: center;    
+    background-color: #B9E5E8;
+    grid-gap: 2px;
+}
+.keyboard__inner_darker2 {
+    background: #9BC3C6;
+    width: 540px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    place-items: center; 
+ 
+   }
+.keyboard__item2 {
+    height: 100%;
+    width: 100%;
+    border: solid 1px #0A2893;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* color: var(--text-color, #171710); */
+    color: black;
+}
+.keyboard__img2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+   /* зеленые кнопки */
+   .keyboard__innergreen2 {
+    background-color: #D1F0CE;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+      
+    color: var(--text-color, #171710);
+}
+.keyboard__str_light2 {
+    background-color: #D1F0CE;
+    width: 800px;
+    height: 80px;
+    display: flex;
+   
+}
+.keyboard__str_dark2 {
+    background-color: #B7E3A8;
+    width: 800px;
+    height: 80px;
+    display: flex;  
+}
+.keyboard__item_green2 {
+    height: 100%;
+    width: 100%;
+    border: solid 1px #09A823;
+    position: relative;
+    text-align: center;
+}
+.keyboard__img_green{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* черные кнопки */
+
+
+.keyboard__inner_black2 {
+    width: 840px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: black;
+    padding: 8px 8px 8px 8px;
+}
+.keyboard__item_gray2 {
+    height: 90%;
+    width: 90%;
+    background-color: #4a4b4f;
+    border-style: hidden;
+    position: relative;
+}
+.keyboard__img12 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 400;
+    font-size: 36px;
+    
+    text-align: center;
+}
+/* .keyboard__img2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-70%, -70%);
+    color: rgb(148, 146, 146);
+    font-weight: 400;
+    font-size: 20px;
+} */
+/* .keyboard__inner_big {
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard__inner_green {
+    display: flex;
+    flex-direction: column;
+}
+.keyboard__str_light {
+    background-color: #D1F0CE;
+    width: 540px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    place-items: center;    
+    grid-gap: 2px
+}
+.keyboard__str_dark {
+    background-color: #B7E3A8;
+    width: 540px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    place-items: center;    
+    grid-gap: 2px
+}
+.keyboard__item_green {
+    height: 100%;
+    width: 100%;
+    border: solid 1px #09A823;
+    position: relative;
+}
+.keyboard__img_green{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--task-color, #F6F897);
+    padding: 10px; 
+    border-radius: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--text-color, #171710);
+}

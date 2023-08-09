@@ -1,0 +1,121 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+}
+.button__futher {
+    width: 200px;
+    height: 50px;
+    background: var(--button-color, #4AEC47);
+    color: var(--button-text, #171710)
+}
+
+.root {
+    --background-color: #ABFCC2;
+    --text-color: #171710;
+    --button-color: #4AEC47;
+    --button-text: #171710;
+    --task-color: #F6F897;
+    --main-page: linear-gradient(45deg, #a1ffce, #f9ffd1);
+}
+html[data-mode='green'] {
+    --background-color: #ABFCC2;
+    --text-color: #171710;
+    --button-color: #4AEC47;
+    --button-text: #171710;
+    --task-color: #F6F897;
+    --main-page: linear-gradient(45deg, #a1ffce, #f9ffd1);
+}
+html[data-mode='lightblue'] {
+    --background-color: #92F8D3;
+    --text-color: #140E10;
+    --button-color: #00FF19;
+    --button-text: #140E10;
+    --task-color: #A27DF1;
+    --main-page: linear-gradient(45deg, #9890e3, #b1f4cf);
+}
+html[data-mode='pink'] {
+    --background-color: #99F7F1;
+    --text-color: #171710;
+    --button-color: #0FD7CB;
+    --button-text: #140E10;
+    --task-color: #F5AEC8;
+    --main-page: linear-gradient(45deg, #d299c2, #fef9d7);
+}
+html[data-mode='blue'] {
+    --background-color: #89B5F8;
+    --text-color: #171710;
+    --button-color: #3246F2;
+    --button-text: #E0E2EE;
+    --task-color: #69F4F4;
+    --main-page: linear-gradient(45deg, #30cfd0, #330867);
+}
+/* html[data-mode='white'] {
+    --background-color: #ffffff;
+    --text-color: #171710;
+    --button-color: #606260;
+    --button-text: #171710;
+    --task-color: #aaacaa;
+    --main-page: #ffffff;
+} */
+
+
+
+.page {
+    display: grid;
+    grid-template-columns:  50px 1fr;
+    grid-template-rows:  min-content;
+    grid-template-areas: 
+        'arrow wrapper';
+    background: var(--background-color, #ABFCC2);
+    
+}
+.page__arrowwrapper {
+    grid-area: arrow;
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-start; */
+    background: #EAEFEF;
+    /* height: 100vh;   */
+}
+.page__arrowholder {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: relative;
+}
+.page__arrowplace {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../assets/fonts/Roboto-Bold.ttf');
+    font-style: normal; 
+    font-weight: bold; 
+}
+@font-face {
+    font-family: "Poppins";
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+    font-style: normal; 
+    font-weight: normal; 
+}
+@media screen and (max-width: 768px) {
+    .page {
+        display: grid;
+        grid-template-rows:  50px 1fr;
+        /* grid-template-columns:  min-content; */
+        grid-template-areas: 
+            'arrow wrapper';
+        background: var(--background-color, #ABFCC2);
+        
+    }
+    .page__arrowwrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

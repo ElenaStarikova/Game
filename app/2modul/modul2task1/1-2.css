@@ -1,0 +1,40 @@
+.map__wrapper1 {
+    grid-area: wrapper;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background: var(--background-color, #ABFCC2);
+    position: relative;
+    height: 100vh;
+    padding: 200px;
+
+}
+.map__pictureswrapper1 {
+    display: flex;
+    gap: 100px;
+}
+.map__text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--text-color, #171710);
+}
+.map__button1 {
+    background: var(--button-color, #4AEC47);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.map__button1:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+

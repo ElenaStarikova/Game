@@ -1,0 +1,86 @@
+.task1-0__wrapper{
+    grid-area: wrapper;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color, #ABFCC2);
+    gap: 300px; 
+    position: relative;
+    height: 100vh;
+}
+.task1-0__note {
+    align-self: center;
+    width: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background: var(--task-color, #F6F897);
+    padding: 20px; 
+    border-radius: 10px;
+}
+.task1-0__explanationHolder {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);  */
+   
+    padding: 5px;
+    position: relative;
+   
+
+}
+.task1-0__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  */
+    text-align: center; 
+     /* align-self: flex-start; */ 
+}
+.task1-0__wordsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 40px 80px 40px 80px;
+    background: var(--task-color, #F6F897);
+    border-radius: 20px;
+}
+.task1__wordHolder {
+    display: flex;
+    gap: 23px;
+}
+.task1_label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.button1__futher {
+    width: 150px;
+    height: 50px;
+    background: var(--button-color, #4AEC47);
+    
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--text-color, #171710);
+    
+} 
+.button1__futher:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}

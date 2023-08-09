@@ -1,0 +1,90 @@
+.task3__wrapper{
+    grid-area: wrapper;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color, #ABFCC2);
+    gap: 200px;
+    position: relative;
+    height: 100vh;
+}
+.task3__btnExp {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    align-content: center;
+    justify-content: center;
+}
+
+.task3__explanationHolder{
+    align-self: center;
+    /* width: 200px;
+    height: 100px; */
+    position: relative;
+    background: var(--task-color, #F6F897);
+    padding: 10px;
+    border-radius: 20px;
+    padding: 20px 60px 20px 60px;
+}
+.task3__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    /* text-align: center; */
+    color: var(--text-color, #171710);
+}
+
+.task3__taskHolder{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+    padding: 100px 80px 160px 80px;
+    border-radius: 20px;
+    background: var(--task-color, #F6F897);
+    
+}
+.task3__str{
+    display: flex;
+    gap: 10px;
+    
+}
+.task3__number{
+    width: 30px;
+}
+.task3__input{
+    width: 50px;
+    height: 40px;
+    background: var(--background-color, #ABFCC2);;
+}
+.enter {
+    width: 50px;
+    height: 40px;
+    background: var(--background-color, #ABFCC2);;
+    padding-left: 30px;
+    padding-top: 13px;
+}
+.task3__button {
+    align-self: center;
+   
+    background: var(--button-color, #4AEC47);
+    color: var(--button-text, #171710);
+    border: none;
+    text-align: center;
+    padding: 15px 100px 15px 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* text-align: center; */
+    color: var(--text-color, #171710);
+}
+.task3__button:hover {
+    border: solid 2px black;
+    cursor: pointer;
+}

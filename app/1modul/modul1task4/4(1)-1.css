@@ -1,0 +1,212 @@
+.task4__wrapper1 {
+    grid-area: wrapper;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: var(--background-color, #ABFCC2);
+    position: relative;
+    height: 100vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* color: var(--text-color, #171710); */
+    color: black;
+}
+
+.task4__text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    background: var(--task-color, #F6F897);
+    padding: 10px;
+    border-radius: 20px;
+}
+.keyboard__inner_big1 {
+    display: flex;
+    flex-direction: column;
+}
+.keyboard__inner1{
+    width: 540px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    place-items: center;    
+    background-color: #B9E5E8;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color, #171710);
+}
+.keyboard__inner_darker1 {
+    background: #9BC3C6;
+    width: 540px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    place-items: center; 
+    /* grid-gap: 2px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color, #171710);
+   }
+.keyboard__item1 {
+    height: 100%;
+    width: 100%;
+    border: solid 1px #0A2893;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* color: var(--text-color, #171710); */
+    color: black;
+}
+.keyboard__img1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+
+.keyboard__inner_gray1 {
+    display: flex;
+    flex-direction: column;
+}
+.keyboard__str_light1 {
+    background-color: #d4d5d4;
+    width: 540px;
+    height: 80px;
+    display: flex;
+    place-items: center;    
+}
+.keyboard__item_gray1 {
+    height: 100%;
+    width: 100%;
+    border-style: hidden;
+    position: relative;
+    background-color: #d4d5d4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    border: solid 1px black;
+}
+.keyboard__item_gray11 {
+    height: 90%;
+    width: 90%;
+    border-style: hidden;
+    position: relative;
+    background-color: #7a7b7a;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    border: solid 1px black;
+}
+.keyboard__str_dark1 {
+    background-color:  #babbba;;
+    width: 540px;
+    height: 80px;
+    display: flex;
+    place-items: center;    
+}
+.keyboard__item_graylight1 {
+    height: 100%;
+    width: 100%;
+    border-style: hidden;
+    position: relative;
+    background-color:rgb(148, 146, 146);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    border: solid 1px black;
+}
+.keyboard__img_gray1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+.keyboard__inner_black1 {
+    width: 840px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: black;
+    padding: 8px 8px 8px 8px;
+    justify-items: center;
+    align-items: center;
+}
+/* .keyboard__item_gray1 {
+    height: 90%;
+    width: 90%;
+    background-color: #4a4b4f;
+    border-style: hidden;
+    position: relative;
+    color: white;
+} */
+.keyboard__img11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 400;
+    font-size: 36px;
+}
+/* .keyboard__img21 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-70%, -70%);
+    color: rgb(148, 146, 146);
+    font-weight: 400;
+    font-size: 20px;
+} */
+.task41__nexttask {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: solid 1px red;
+    background: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}

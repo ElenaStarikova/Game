@@ -1,0 +1,53 @@
+.artholder {
+    grid-area: wrapper;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background: var(--background-color, #ABFCC2);
+    position: relative;
+    height: 100vh;
+    padding: 50px;
+}
+.joconda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:var(--task-color, #F6F897);
+    padding: 10px;
+    height: 500px;
+    border-radius: 20px;
+}
+/* .joconda__image {
+    align-self: stretch;
+} */
+.joconda__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+.adam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:var(--task-color, #F6F897);
+    padding: 10px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+}
+/* .adam__image {
+    align-self: stretch;
+} */
+.adam__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+
+}
